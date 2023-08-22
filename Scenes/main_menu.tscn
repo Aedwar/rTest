@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://c5fmll6yqtu05"]
+
+[node name="Main Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Start Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 353.0
+offset_top = 343.0
+offset_right = 399.0
+offset_bottom = 374.0
+scale = Vector2(8.86332, 4.4976)
+text = "Start"
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 0
+offset_left = 194.0
+offset_top = 34.0
+offset_right = 282.0
+offset_bottom = 60.0
+scale = Vector2(8.50762, 6.18721)
+text = "Main Menu"

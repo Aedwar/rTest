@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://b2snfrtvq6gwq"]
+
+[ext_resource type="Texture2D" uid="uid://balurb3x1ncvu" path="res://Sprites/magefull.PNG" id="1_yukfo"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_iy617"]
+size = Vector2(92, 156)
+
+[node name="Player" type="CharacterBody2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(0, 2)
+shape = SubResource("RectangleShape2D_iy617")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(1.90735e-06, 1)
+scale = Vector2(0.566667, 0.566667)
+texture = ExtResource("1_yukfo")
